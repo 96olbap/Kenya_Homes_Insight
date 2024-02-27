@@ -33,3 +33,13 @@ driver = webdriver.Chrome(options=chrome_options)
 
 def ScrapePropertyData(): #Function to scrape property data
     driver.get('https://www.buyrentkenya.com/houses-for-sale/nairobi') #website to fetch data from
+    try: #exception to wait for 30 seconds for the content on the target page to be loaded
+        elem = WebDriverWait(driver, 30).until(
+    EC.presence_of_element_located((By.ID, "mainContent")) #the id encompassing the content on the target page
+    )
+    finally:
+        print('loaded')
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+    """Scraper to fetch each row and column"""
+    
