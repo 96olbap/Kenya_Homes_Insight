@@ -64,3 +64,65 @@ def ScrapePropertyData(): #Function to scrape property data
         real_estate = real_estate.append({'Title':title[i], 'Category':category[i], 'Location':location[i], 'Beds':bedrooms[i], 'Baths':bathrooms[i], 'Price':price[i]})
     real_estate
 
+    """To get data from 5pages"""
+    real_estate_new = pd.DataFrame(columns = ['Title', 'Category', 'Location', 'Beds', 'Baths', 'Price'])
+
+    title = []
+    category = []
+    location = []
+    bedrooms = []
+    bathrooms = []
+    price = []
+
+    for i in range(1,6):
+        driver.get('https://www.buyrentkenya.com/houses-for-sale/nairobi' + str(i) + '_p/')
+        try: #exception to wait for 30 seconds for the content on the target page to be loaded
+                elem = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.ID, "mainContent")) #the class encompassing the content on the target page
+        )
+        finally:
+            print('loaded')
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+    
+        result = soup.find_all('div', {'class' : 'listing-card'})
+        len(result)
+
+        result_update = [i for i in result if i.has_attr('data-bi')]
+        len(result_update)
+
+        for result in result_update:
+            try:
+                title.append(result.find('a', {'data-cy' : 'listing-title-link'}).get_text())
+            except:
+                title.append('n/a')
+            try:
+                category.append(result.find('div', {'data-bi-listing-category'}).get_text())
+            except:
+                category.append('n/a')
+            try:
+                location.append(result.find('p', {'class' : 'ml-1'}).get_text())
+            except:
+                location.append('n/a')
+            try:
+                bedrooms.append(result.find('span', {'data-cy' : 'card-beds'}).get_text())
+            except:
+                bedrooms.append('n/a')
+            try:
+                bathrooms,append(result.find('span', {'data-cy' : 'card-bathrooms'}).get_text())
+            except:
+                bathrooms.append('n/a')
+            try:
+                price.append(result.find('div', {'data-bi-listing-price'}).get_text())
+            except:
+                price.append('n/a')
+            
+        for j in range(len(location)):
+            real_estate_new = real_estate_new.append({'Title':title[j], 'Category':category[j], 'Location':location[j], 'Beds':bedrooms[j], 'Baths':bathrooms[j], 'Price':price[j]})
+        real_estate_new
+
+    """Data cleaning"""
+    real_estate_new['Price'] = real_estate_new['Price'].apply(lambda x: x.replace(",",""))
+    real_estate_new.Price=real_estate_new.Price.astype(int)
+
+    #Save the data to a csv file
+    real_estate_new.to_csv('real_estate_nrb.csv')
