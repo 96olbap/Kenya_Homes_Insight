@@ -31,3 +31,5 @@ for option in options:
 
 driver = webdriver.Chrome(options=chrome_options)
 
+def ScrapePropertyData(): #Function to scrape property data
+    driver.get('https://www.buyrentkenya.com/houses-for-sale/nairobi') #website to fetch data from
