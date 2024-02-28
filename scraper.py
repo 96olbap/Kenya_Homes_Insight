@@ -1,9 +1,11 @@
 import requests
 import json
 import pandas as pd
-import bs4 as BeautifulSoup
+import bs4 as bs
+import time
 
 from selenium import webdriver
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -14,15 +16,17 @@ from selenium.webdriver.chrome.service import Service
 import chromedriver_autoinstaller
 
 from pyvirtualdisplay import Display
-display = Display(visible = 0, size =(800, 800))
-display.start()
+# display = Display(visible = 0, size =(800, 800))
+# display.start()
 
 chromedriver_autoinstaller.install() #To check if the current version of chromedriver exists, if not download automatically
 
+chrome_path = ChromeDriverManager().install()
 chrome_options = webdriver.ChromeOptions()
 options = [
     #Define window size
     "--window-size=1200,1200",
+    "executable_path={chrome_path}",
     "--ignore-certificate-errors"
 ]
 
@@ -32,14 +36,18 @@ for option in options:
 driver = webdriver.Chrome(options=chrome_options)
 
 def ScrapePropertyData(): #Function to scrape property data
+
     driver.get('https://www.buyrentkenya.com/houses-for-sale/nairobi') #website to fetch data from
+
+    time.sleep(10)
+
     try: #exception to wait for 30 seconds for the content on the target page to be loaded
         elem = WebDriverWait(driver, 30).until(
-    EC.presence_of_element_located((By.ID, "mainContent")) #the class encompassing the content on the target page
+        EC.presence_of_element_located((By.XPATH, "//body")) #the class encompassing the content on the target page
     )
     finally:
         print('loaded')
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        soup = bs.BeautifulSoup(driver.page_source, 'html.parser')
 
     """Scraper to fetch each row and column"""
 
@@ -77,12 +85,12 @@ def ScrapePropertyData(): #Function to scrape property data
     for i in range(1,6):
         driver.get('https://www.buyrentkenya.com/houses-for-sale/nairobi' + str(i) + '_p/')
         try: #exception to wait for 30 seconds for the content on the target page to be loaded
-                elem = WebDriverWait(driver, 30).until(
-        EC.presence_of_element_located((By.ID, "mainContent")) #the class encompassing the content on the target page
+            elem = WebDriverWait(driver, 30).until(
+        EC.presence_of_element_located((By.XPATH, "//body"))
         )
         finally:
             print('loaded')
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            soup = bs.BeautifulSoup(driver.page_source, 'html.parser')
     
         result = soup.find_all('div', {'class' : 'listing-card'})
         len(result)
@@ -108,7 +116,7 @@ def ScrapePropertyData(): #Function to scrape property data
             except:
                 bedrooms.append('n/a')
             try:
-                bathrooms,append(result.find('span', {'data-cy' : 'card-bathrooms'}).get_text())
+                bathrooms.append(result.find('span', {'data-cy' : 'card-bathrooms'}).get_text())
             except:
                 bathrooms.append('n/a')
             try:
@@ -125,4 +133,7 @@ def ScrapePropertyData(): #Function to scrape property data
     real_estate_new.Price=real_estate_new.Price.astype(int)
 
     #Save the data to a csv file
-    real_estate_new.to_csv('real_estate_nrb.csv')
+    # real_estate_new.to_csv('real_estate_nrb.csv')
+    return real_estate_new
+
+ScrapePropertyData()
