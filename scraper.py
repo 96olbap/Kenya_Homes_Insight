@@ -1,6 +1,7 @@
 import pandas as pd
 import bs4 as bs
 import time
+import re
 
 from selenium import webdriver
 
@@ -17,19 +18,35 @@ from pyvirtualdisplay import Display
 # display = Display(visible = 0, size =(800, 800))
 # display.start()
 
-# Set up the Chrome driver
+"""Set up the Chrome driver"""
 chrome_driver_path = '/Users/wepukhulu/Downloads/chromedriver'
 chrome_options = Options()
 chrome_options.add_argument(f"exec_path={chrome_driver_path}")
 
-# Initialize the Chrome driver with the correct options
+"""Initialize the Chrome driver with the correct options"""
 driver = webdriver.Chrome(options=chrome_options)
+
+# Data cleaning functions
+def clean_category(category):
+    categories = ['villa', 'bungalow', 'apartment', 'townhouse']
+    for cat in categories:
+        if cat in category.lower():
+            return cat.capitalize()
+    return 'Other'
+
+def clean_price(price):
+    match = re.search(r'KSh\s*([\d,]+)', price)
+    if match:
+        return int(match.group(1).replace(',', ''))
+    return None
 
 def ScrapePropertyData(): #Function to scrape property data
 
+    columns = ['Title', 'Category', 'Location', 'Beds', 'Baths', 'Price']
     real_estate = []
 
-    for i in range(1, 6):
+    """To scrape data from the first 11 pages of the website"""
+    for i in range(1, 31):
         url = f'https://www.buyrentkenya.com/houses-for-sale/nairobi' + str(i) + '_p/'
         driver.get(url)
 
@@ -45,9 +62,6 @@ def ScrapePropertyData(): #Function to scrape property data
     
         result_elements = driver.find_elements(By.CSS_SELECTOR, 'div.listing-card')
             
-        # for j in range(len(location)):
-        #     real_estate_new = real_estate_new.append({'Title':title[j], 'Category':category[j], 'Location':location[j], 'Beds':bedrooms[j], 'Baths':bathrooms[j], 'Price':price[j]})
-        # real_estate_new
         for result in result_elements:
             try:
                 title = result.find_element(By.CSS_SELECTOR, 'a[data-cy="listing-title-link"]').text
@@ -77,15 +91,19 @@ def ScrapePropertyData(): #Function to scrape property data
             real_estate.append({'Title': title, 'Category': category, 'Location': location,
                              'Beds': bedrooms, 'Baths': bathrooms, 'Price': price})
 
-    # print(real_estate_new)
-    # """Data cleaning"""
-    # real_estate_new['Price'] = real_estate_new['Price'].apply(lambda x: x.replace(",",""))
-    # real_estate_new.Price=real_estate_new.Price.astype(int)
-    real_estate_new = pd.DataFrame(real_estate)
-    print(real_estate_new)
 
-    #Save the data to a csv file
-    real_estate_new.to_csv('real_estate_nrb.csv')
-    return real_estate_new
+    real_estate_df = pd.DataFrame(real_estate, columns=columns)
+    print(real_estate_df)
+
+    """Clean the dataframe"""
+    real_estate_df['Category'] = real_estate_df['Category'].apply(clean_category)
+    real_estate_df['Price'] = real_estate_df['Price'].apply(clean_price)
+
+    """Drop rows with None in 'Price'"""
+    real_estate_df.dropna(subset=['Price'], inplace=True)
+
+    """Save the data to a csv file"""
+    real_estate_df.to_csv('real_estate_nrb_cleaned.csv', index=False, sep=';')
+    return real_estate_df
 
 ScrapePropertyData()

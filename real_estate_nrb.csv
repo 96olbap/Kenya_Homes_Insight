@@ -1,37 +1,54 @@
-,Title,Category,Location,Beds,Baths,Price
-0,5 Bed House With En Suite At Runda Meadows,"Gold
+Title;Category;Location;Beds;Baths;Price
+5 Bed Villa With En Suite In Muthaiga;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
-KSh 150,000,000","400, Runda Meadows, Runda, Westlands",5,4,"Gold
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
 KSh 150,000,000"
-1,4 Bed Villa With En Suite At 00620,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000","64911, 00620, Thika Road",4,4,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000"
-2,5 Bed House With En Suite At Gigiri,"Silver
+5 Bed House With En Suite At Gigiri;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -40,7 +57,7 @@ Added Today
 5
 5
 A perfect home; five bedroom residence in the p...
-KSh 90,000,000","0311n, Gigiri, Gigiri, Westlands",5,5,"Silver
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -50,7 +67,7 @@ Added Today
 5
 A perfect home; five bedroom residence in the p...
 KSh 90,000,000"
-3,5 Bed Townhouse With En Suite At Kitisuru Road,"Silver
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -58,7 +75,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 5
 New Modern Contemporary 5 Bedroom Town Home For...
-KSh 130,000,000","Kitisuru Road, Kitisuru, Westlands",5,5,"Silver
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -67,7 +84,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 New Modern Contemporary 5 Bedroom Town Home For...
 KSh 130,000,000"
-4,7 Bed Villa With En Suite In Runda,"Silver
+7 Bed Villa With En Suite In Runda;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -75,7 +92,7 @@ Runda, Westlands
 7
 7
 7 Bedroom Villa
-KSh 220,000,000","Runda, Westlands",7,7,"Silver
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -84,7 +101,7 @@ Runda, Westlands
 7
 7 Bedroom Villa
 KSh 220,000,000"
-5,5 Bed House With En Suite In Spring Valley,"Silver
+5 Bed House With En Suite In Spring Valley;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -92,7 +109,7 @@ Spring Valley, Westlands
 5
 5
 Elegant 5 bedroom Villa
-KSh 85,000,000","Spring Valley, Westlands",5,5,"Silver
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -101,7 +118,7 @@ Spring Valley, Westlands
 5
 Elegant 5 bedroom Villa
 KSh 85,000,000"
-6,3 Bed Townhouse With En Suite In Runda,"Silver
+3 Bed Townhouse With En Suite In Runda;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -109,7 +126,7 @@ Runda, Westlands
 3
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
-KSh 30,000,000","Runda, Westlands",3,3,"Silver
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -118,7 +135,7 @@ Runda, Westlands
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
 KSh 30,000,000"
-7,4 Bed House With En Suite At Membley,"Silver
+4 Bed House With En Suite At Membley;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -126,7 +143,7 @@ Membley, Thika Road
 4
 4
 A 4 bedroom house for sale
-KSh 17,000,000","Membley, Thika Road",4,4,"Silver
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -135,7 +152,7 @@ Membley, Thika Road
 4
 A 4 bedroom house for sale
 KSh 17,000,000"
-8,5 Bed House With En Suite At Un Avenue,"Silver
+5 Bed House With En Suite At Un Avenue;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -143,7 +160,7 @@ UN Avenue, Gigiri, Westlands
 5
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
-KSh 120,000,000","UN Avenue, Gigiri, Westlands",5,5,"Silver
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -152,7 +169,7 @@ UN Avenue, Gigiri, Westlands
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
 KSh 120,000,000"
-9,5 Bed Villa With En Suite At James Gichuru Rd,"Silver
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -161,7 +178,7 @@ James Gichuru Rd, Lavington
 5
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
-KSh 84,000,000","James Gichuru Rd, Lavington",5,7,"Silver
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -171,7 +188,7 @@ James Gichuru Rd, Lavington
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
 KSh 84,000,000"
-10,5 Bed Villa With En Suite At Lavington,"Silver
+5 Bed Villa With En Suite At Lavington;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -180,7 +197,7 @@ Lavington
 5
 7
 New Ready For Occupation 5 Bedroom Villas plus...
-KSh 98,000,000",Lavington,5,7,"Silver
+KSh 98,000,000";Lavington;5;7;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -190,7 +207,7 @@ Lavington
 7
 New Ready For Occupation 5 Bedroom Villas plus...
 KSh 98,000,000"
-11,4 Bed House With En Suite At Loresho,"Silver
+4 Bed House With En Suite At Loresho;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -198,7 +215,7 @@ Loresho, Westlands
 4
 4
 Charming 4-Bedroom House for Sale
-KSh 80,000,000","Loresho, Westlands",4,4,"Silver
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -207,7 +224,7 @@ Loresho, Westlands
 4
 Charming 4-Bedroom House for Sale
 KSh 80,000,000"
-12,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -215,7 +232,7 @@ Lavington
 4
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
-KSh 120,000,000",Lavington,4,6,"Silver
+KSh 120,000,000";Lavington;4;6;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -224,7 +241,7 @@ Lavington
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
 KSh 120,000,000"
-13,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -232,7 +249,7 @@ Lavington
 4
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
-KSh 65,000,000",Lavington,4,6,"Silver
+KSh 65,000,000";Lavington;4;6;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -241,7 +258,7 @@ Lavington
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
 KSh 65,000,000"
-14,4 Bed Townhouse With En Suite In Loresho,"Silver
+4 Bed Townhouse With En Suite In Loresho;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -249,7 +266,7 @@ Loresho, Westlands
 4
 4
 4 Bedroom Townhouse for sale in Loresho
-KSh 123,800,000","Loresho, Westlands",4,4,"Silver
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -258,73 +275,71 @@ Loresho, Westlands
 4
 4 Bedroom Townhouse for sale in Loresho
 KSh 123,800,000"
-15,1 Bed House In Kenyatta Road,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000",Kenyatta Road,1,1,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000"
-16,5 Bed Townhouse In Karen,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+5 Bed Villa With Garden In Kiambu Road;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
-KSh 70,000,000",Karen,5,5,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
 KSh 70,000,000"
-17,5 Bed House With En Suite At Runda Meadows,"Gold
+5 Bed Villa With En Suite In Muthaiga;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
-KSh 150,000,000","400, Runda Meadows, Runda, Westlands",5,4,"Gold
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
 KSh 150,000,000"
-18,4 Bed Villa With En Suite At 00620,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000","64911, 00620, Thika Road",4,4,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000"
-19,5 Bed House With En Suite At Gigiri,"Silver
+5 Bed House With En Suite At Gigiri;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -333,7 +348,7 @@ Added Today
 5
 5
 A perfect home; five bedroom residence in the p...
-KSh 90,000,000","0311n, Gigiri, Gigiri, Westlands",5,5,"Silver
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -343,7 +358,7 @@ Added Today
 5
 A perfect home; five bedroom residence in the p...
 KSh 90,000,000"
-20,5 Bed Townhouse With En Suite At Kitisuru Road,"Silver
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -351,7 +366,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 5
 New Modern Contemporary 5 Bedroom Town Home For...
-KSh 130,000,000","Kitisuru Road, Kitisuru, Westlands",5,5,"Silver
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -360,7 +375,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 New Modern Contemporary 5 Bedroom Town Home For...
 KSh 130,000,000"
-21,7 Bed Villa With En Suite In Runda,"Silver
+7 Bed Villa With En Suite In Runda;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -368,7 +383,7 @@ Runda, Westlands
 7
 7
 7 Bedroom Villa
-KSh 220,000,000","Runda, Westlands",7,7,"Silver
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -377,7 +392,7 @@ Runda, Westlands
 7
 7 Bedroom Villa
 KSh 220,000,000"
-22,5 Bed House With En Suite In Spring Valley,"Silver
+5 Bed House With En Suite In Spring Valley;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -385,7 +400,7 @@ Spring Valley, Westlands
 5
 5
 Elegant 5 bedroom Villa
-KSh 85,000,000","Spring Valley, Westlands",5,5,"Silver
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -394,7 +409,7 @@ Spring Valley, Westlands
 5
 Elegant 5 bedroom Villa
 KSh 85,000,000"
-23,3 Bed Townhouse With En Suite In Runda,"Silver
+3 Bed Townhouse With En Suite In Runda;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -402,7 +417,7 @@ Runda, Westlands
 3
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
-KSh 30,000,000","Runda, Westlands",3,3,"Silver
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -411,7 +426,7 @@ Runda, Westlands
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
 KSh 30,000,000"
-24,4 Bed House With En Suite At Membley,"Silver
+4 Bed House With En Suite At Membley;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -419,7 +434,7 @@ Membley, Thika Road
 4
 4
 A 4 bedroom house for sale
-KSh 17,000,000","Membley, Thika Road",4,4,"Silver
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -428,7 +443,7 @@ Membley, Thika Road
 4
 A 4 bedroom house for sale
 KSh 17,000,000"
-25,5 Bed House With En Suite At Un Avenue,"Silver
+5 Bed House With En Suite At Un Avenue;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -436,7 +451,7 @@ UN Avenue, Gigiri, Westlands
 5
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
-KSh 120,000,000","UN Avenue, Gigiri, Westlands",5,5,"Silver
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -445,7 +460,7 @@ UN Avenue, Gigiri, Westlands
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
 KSh 120,000,000"
-26,5 Bed Villa With En Suite At James Gichuru Rd,"Silver
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -454,7 +469,7 @@ James Gichuru Rd, Lavington
 5
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
-KSh 84,000,000","James Gichuru Rd, Lavington",5,7,"Silver
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -464,7 +479,7 @@ James Gichuru Rd, Lavington
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
 KSh 84,000,000"
-27,5 Bed Villa With En Suite At Lavington,"Silver
+5 Bed Villa With En Suite At Lavington;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -473,7 +488,7 @@ Lavington
 5
 7
 New Ready For Occupation 5 Bedroom Villas plus...
-KSh 98,000,000",Lavington,5,7,"Silver
+KSh 98,000,000";Lavington;5;7;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -483,7 +498,7 @@ Lavington
 7
 New Ready For Occupation 5 Bedroom Villas plus...
 KSh 98,000,000"
-28,4 Bed House With En Suite At Loresho,"Silver
+4 Bed House With En Suite At Loresho;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -491,7 +506,7 @@ Loresho, Westlands
 4
 4
 Charming 4-Bedroom House for Sale
-KSh 80,000,000","Loresho, Westlands",4,4,"Silver
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -500,7 +515,7 @@ Loresho, Westlands
 4
 Charming 4-Bedroom House for Sale
 KSh 80,000,000"
-29,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -508,7 +523,7 @@ Lavington
 4
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
-KSh 120,000,000",Lavington,4,6,"Silver
+KSh 120,000,000";Lavington;4;6;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -517,7 +532,7 @@ Lavington
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
 KSh 120,000,000"
-30,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -525,7 +540,7 @@ Lavington
 4
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
-KSh 65,000,000",Lavington,4,6,"Silver
+KSh 65,000,000";Lavington;4;6;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -534,7 +549,7 @@ Lavington
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
 KSh 65,000,000"
-31,4 Bed Townhouse With En Suite In Loresho,"Silver
+4 Bed Townhouse With En Suite In Loresho;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -542,7 +557,7 @@ Loresho, Westlands
 4
 4
 4 Bedroom Townhouse for sale in Loresho
-KSh 123,800,000","Loresho, Westlands",4,4,"Silver
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -551,73 +566,71 @@ Loresho, Westlands
 4
 4 Bedroom Townhouse for sale in Loresho
 KSh 123,800,000"
-32,1 Bed House In Kenyatta Road,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000",Kenyatta Road,1,1,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000"
-33,5 Bed Townhouse In Karen,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+5 Bed Villa With Garden In Kiambu Road;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
-KSh 70,000,000",Karen,5,5,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
 KSh 70,000,000"
-34,5 Bed House With En Suite At Runda Meadows,"Gold
+5 Bed Villa With En Suite In Muthaiga;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
-KSh 150,000,000","400, Runda Meadows, Runda, Westlands",5,4,"Gold
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
 KSh 150,000,000"
-35,4 Bed Villa With En Suite At 00620,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000","64911, 00620, Thika Road",4,4,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000"
-36,5 Bed House With En Suite At Gigiri,"Silver
+5 Bed House With En Suite At Gigiri;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -626,7 +639,7 @@ Added Today
 5
 5
 A perfect home; five bedroom residence in the p...
-KSh 90,000,000","0311n, Gigiri, Gigiri, Westlands",5,5,"Silver
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -636,7 +649,7 @@ Added Today
 5
 A perfect home; five bedroom residence in the p...
 KSh 90,000,000"
-37,5 Bed Townhouse With En Suite At Kitisuru Road,"Silver
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -644,7 +657,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 5
 New Modern Contemporary 5 Bedroom Town Home For...
-KSh 130,000,000","Kitisuru Road, Kitisuru, Westlands",5,5,"Silver
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -653,7 +666,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 New Modern Contemporary 5 Bedroom Town Home For...
 KSh 130,000,000"
-38,7 Bed Villa With En Suite In Runda,"Silver
+7 Bed Villa With En Suite In Runda;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -661,7 +674,7 @@ Runda, Westlands
 7
 7
 7 Bedroom Villa
-KSh 220,000,000","Runda, Westlands",7,7,"Silver
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -670,7 +683,7 @@ Runda, Westlands
 7
 7 Bedroom Villa
 KSh 220,000,000"
-39,5 Bed House With En Suite In Spring Valley,"Silver
+5 Bed House With En Suite In Spring Valley;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -678,7 +691,7 @@ Spring Valley, Westlands
 5
 5
 Elegant 5 bedroom Villa
-KSh 85,000,000","Spring Valley, Westlands",5,5,"Silver
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -687,7 +700,7 @@ Spring Valley, Westlands
 5
 Elegant 5 bedroom Villa
 KSh 85,000,000"
-40,3 Bed Townhouse With En Suite In Runda,"Silver
+3 Bed Townhouse With En Suite In Runda;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -695,7 +708,7 @@ Runda, Westlands
 3
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
-KSh 30,000,000","Runda, Westlands",3,3,"Silver
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -704,7 +717,7 @@ Runda, Westlands
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
 KSh 30,000,000"
-41,4 Bed House With En Suite At Membley,"Silver
+4 Bed House With En Suite At Membley;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -712,7 +725,7 @@ Membley, Thika Road
 4
 4
 A 4 bedroom house for sale
-KSh 17,000,000","Membley, Thika Road",4,4,"Silver
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -721,7 +734,7 @@ Membley, Thika Road
 4
 A 4 bedroom house for sale
 KSh 17,000,000"
-42,5 Bed House With En Suite At Un Avenue,"Silver
+5 Bed House With En Suite At Un Avenue;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -729,7 +742,7 @@ UN Avenue, Gigiri, Westlands
 5
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
-KSh 120,000,000","UN Avenue, Gigiri, Westlands",5,5,"Silver
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -738,7 +751,7 @@ UN Avenue, Gigiri, Westlands
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
 KSh 120,000,000"
-43,5 Bed Villa With En Suite At James Gichuru Rd,"Silver
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -747,7 +760,7 @@ James Gichuru Rd, Lavington
 5
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
-KSh 84,000,000","James Gichuru Rd, Lavington",5,7,"Silver
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -757,7 +770,7 @@ James Gichuru Rd, Lavington
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
 KSh 84,000,000"
-44,5 Bed Villa With En Suite At Lavington,"Silver
+5 Bed Villa With En Suite At Lavington;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -766,7 +779,7 @@ Lavington
 5
 7
 New Ready For Occupation 5 Bedroom Villas plus...
-KSh 98,000,000",Lavington,5,7,"Silver
+KSh 98,000,000";Lavington;5;7;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -776,7 +789,7 @@ Lavington
 7
 New Ready For Occupation 5 Bedroom Villas plus...
 KSh 98,000,000"
-45,4 Bed House With En Suite At Loresho,"Silver
+4 Bed House With En Suite At Loresho;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -784,7 +797,7 @@ Loresho, Westlands
 4
 4
 Charming 4-Bedroom House for Sale
-KSh 80,000,000","Loresho, Westlands",4,4,"Silver
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -793,7 +806,7 @@ Loresho, Westlands
 4
 Charming 4-Bedroom House for Sale
 KSh 80,000,000"
-46,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -801,7 +814,7 @@ Lavington
 4
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
-KSh 120,000,000",Lavington,4,6,"Silver
+KSh 120,000,000";Lavington;4;6;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -810,7 +823,7 @@ Lavington
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
 KSh 120,000,000"
-47,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -818,7 +831,7 @@ Lavington
 4
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
-KSh 65,000,000",Lavington,4,6,"Silver
+KSh 65,000,000";Lavington;4;6;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -827,7 +840,7 @@ Lavington
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
 KSh 65,000,000"
-48,4 Bed Townhouse With En Suite In Loresho,"Silver
+4 Bed Townhouse With En Suite In Loresho;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -835,7 +848,7 @@ Loresho, Westlands
 4
 4
 4 Bedroom Townhouse for sale in Loresho
-KSh 123,800,000","Loresho, Westlands",4,4,"Silver
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -844,73 +857,71 @@ Loresho, Westlands
 4
 4 Bedroom Townhouse for sale in Loresho
 KSh 123,800,000"
-49,1 Bed House In Kenyatta Road,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000",Kenyatta Road,1,1,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000"
-50,5 Bed Townhouse In Karen,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+5 Bed Villa With Garden In Kiambu Road;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
-KSh 70,000,000",Karen,5,5,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
 KSh 70,000,000"
-51,5 Bed House With En Suite At Runda Meadows,"Gold
+5 Bed Villa With En Suite In Muthaiga;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
-KSh 150,000,000","400, Runda Meadows, Runda, Westlands",5,4,"Gold
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
 KSh 150,000,000"
-52,4 Bed Villa With En Suite At 00620,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000","64911, 00620, Thika Road",4,4,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000"
-53,5 Bed House With En Suite At Gigiri,"Silver
+5 Bed House With En Suite At Gigiri;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -919,7 +930,7 @@ Added Today
 5
 5
 A perfect home; five bedroom residence in the p...
-KSh 90,000,000","0311n, Gigiri, Gigiri, Westlands",5,5,"Silver
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -929,7 +940,7 @@ Added Today
 5
 A perfect home; five bedroom residence in the p...
 KSh 90,000,000"
-54,5 Bed Townhouse With En Suite At Kitisuru Road,"Silver
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -937,7 +948,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 5
 New Modern Contemporary 5 Bedroom Town Home For...
-KSh 130,000,000","Kitisuru Road, Kitisuru, Westlands",5,5,"Silver
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -946,7 +957,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 New Modern Contemporary 5 Bedroom Town Home For...
 KSh 130,000,000"
-55,7 Bed Villa With En Suite In Runda,"Silver
+7 Bed Villa With En Suite In Runda;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -954,7 +965,7 @@ Runda, Westlands
 7
 7
 7 Bedroom Villa
-KSh 220,000,000","Runda, Westlands",7,7,"Silver
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -963,7 +974,7 @@ Runda, Westlands
 7
 7 Bedroom Villa
 KSh 220,000,000"
-56,5 Bed House With En Suite In Spring Valley,"Silver
+5 Bed House With En Suite In Spring Valley;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -971,7 +982,7 @@ Spring Valley, Westlands
 5
 5
 Elegant 5 bedroom Villa
-KSh 85,000,000","Spring Valley, Westlands",5,5,"Silver
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -980,7 +991,7 @@ Spring Valley, Westlands
 5
 Elegant 5 bedroom Villa
 KSh 85,000,000"
-57,3 Bed Townhouse With En Suite In Runda,"Silver
+3 Bed Townhouse With En Suite In Runda;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -988,7 +999,7 @@ Runda, Westlands
 3
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
-KSh 30,000,000","Runda, Westlands",3,3,"Silver
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -997,7 +1008,7 @@ Runda, Westlands
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
 KSh 30,000,000"
-58,4 Bed House With En Suite At Membley,"Silver
+4 Bed House With En Suite At Membley;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -1005,7 +1016,7 @@ Membley, Thika Road
 4
 4
 A 4 bedroom house for sale
-KSh 17,000,000","Membley, Thika Road",4,4,"Silver
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -1014,7 +1025,7 @@ Membley, Thika Road
 4
 A 4 bedroom house for sale
 KSh 17,000,000"
-59,5 Bed House With En Suite At Un Avenue,"Silver
+5 Bed House With En Suite At Un Avenue;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -1022,7 +1033,7 @@ UN Avenue, Gigiri, Westlands
 5
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
-KSh 120,000,000","UN Avenue, Gigiri, Westlands",5,5,"Silver
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -1031,7 +1042,7 @@ UN Avenue, Gigiri, Westlands
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
 KSh 120,000,000"
-60,5 Bed Villa With En Suite At James Gichuru Rd,"Silver
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -1040,7 +1051,7 @@ James Gichuru Rd, Lavington
 5
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
-KSh 84,000,000","James Gichuru Rd, Lavington",5,7,"Silver
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -1050,7 +1061,7 @@ James Gichuru Rd, Lavington
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
 KSh 84,000,000"
-61,5 Bed Villa With En Suite At Lavington,"Silver
+5 Bed Villa With En Suite At Lavington;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -1059,7 +1070,7 @@ Lavington
 5
 7
 New Ready For Occupation 5 Bedroom Villas plus...
-KSh 98,000,000",Lavington,5,7,"Silver
+KSh 98,000,000";Lavington;5;7;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -1069,7 +1080,7 @@ Lavington
 7
 New Ready For Occupation 5 Bedroom Villas plus...
 KSh 98,000,000"
-62,4 Bed House With En Suite At Loresho,"Silver
+4 Bed House With En Suite At Loresho;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -1077,7 +1088,7 @@ Loresho, Westlands
 4
 4
 Charming 4-Bedroom House for Sale
-KSh 80,000,000","Loresho, Westlands",4,4,"Silver
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -1086,7 +1097,7 @@ Loresho, Westlands
 4
 Charming 4-Bedroom House for Sale
 KSh 80,000,000"
-63,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -1094,7 +1105,7 @@ Lavington
 4
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
-KSh 120,000,000",Lavington,4,6,"Silver
+KSh 120,000,000";Lavington;4;6;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -1103,7 +1114,7 @@ Lavington
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
 KSh 120,000,000"
-64,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -1111,7 +1122,7 @@ Lavington
 4
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
-KSh 65,000,000",Lavington,4,6,"Silver
+KSh 65,000,000";Lavington;4;6;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -1120,7 +1131,7 @@ Lavington
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
 KSh 65,000,000"
-65,4 Bed Townhouse With En Suite In Loresho,"Silver
+4 Bed Townhouse With En Suite In Loresho;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -1128,7 +1139,7 @@ Loresho, Westlands
 4
 4
 4 Bedroom Townhouse for sale in Loresho
-KSh 123,800,000","Loresho, Westlands",4,4,"Silver
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -1137,73 +1148,71 @@ Loresho, Westlands
 4
 4 Bedroom Townhouse for sale in Loresho
 KSh 123,800,000"
-66,1 Bed House In Kenyatta Road,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000",Kenyatta Road,1,1,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000"
-67,5 Bed Townhouse In Karen,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+5 Bed Villa With Garden In Kiambu Road;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
-KSh 70,000,000",Karen,5,5,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
 5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
 5
-5 Bedroom Townhouse in Karen for Sale
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
 KSh 70,000,000"
-68,5 Bed House With En Suite At Runda Meadows,"Gold
+5 Bed Villa With En Suite In Muthaiga;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
-KSh 150,000,000","400, Runda Meadows, Runda, Westlands",5,4,"Gold
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
 20
-5 Bed House With En Suite At Runda Meadows
-400, Runda Meadows, Runda, Westlands
-6460 ft²
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
-4
-5 Bedroom Rustic Tuscany Residence
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
 KSh 150,000,000"
-69,4 Bed Villa With En Suite At 00620,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000","64911, 00620, Thika Road",4,4,"Gold
-21
-4 Bed Villa With En Suite At 00620
-64911, 00620, Thika Road
-4
-4
-The Oint Country Homes
-KSh 24,800,000"
-70,5 Bed House With En Suite At Gigiri,"Silver
+5 Bed House With En Suite At Gigiri;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -1212,7 +1221,7 @@ Added Today
 5
 5
 A perfect home; five bedroom residence in the p...
-KSh 90,000,000","0311n, Gigiri, Gigiri, Westlands",5,5,"Silver
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite At Gigiri
@@ -1222,7 +1231,7 @@ Added Today
 5
 A perfect home; five bedroom residence in the p...
 KSh 90,000,000"
-71,5 Bed Townhouse With En Suite At Kitisuru Road,"Silver
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -1230,7 +1239,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 5
 New Modern Contemporary 5 Bedroom Town Home For...
-KSh 130,000,000","Kitisuru Road, Kitisuru, Westlands",5,5,"Silver
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed Townhouse With En Suite At Kitisuru Road
@@ -1239,7 +1248,7 @@ Kitisuru Road, Kitisuru, Westlands
 5
 New Modern Contemporary 5 Bedroom Town Home For...
 KSh 130,000,000"
-72,7 Bed Villa With En Suite In Runda,"Silver
+7 Bed Villa With En Suite In Runda;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -1247,7 +1256,7 @@ Runda, Westlands
 7
 7
 7 Bedroom Villa
-KSh 220,000,000","Runda, Westlands",7,7,"Silver
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
 Added Today
 14
 7 Bed Villa With En Suite In Runda
@@ -1256,7 +1265,7 @@ Runda, Westlands
 7
 7 Bedroom Villa
 KSh 220,000,000"
-73,5 Bed House With En Suite In Spring Valley,"Silver
+5 Bed House With En Suite In Spring Valley;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -1264,7 +1273,7 @@ Spring Valley, Westlands
 5
 5
 Elegant 5 bedroom Villa
-KSh 85,000,000","Spring Valley, Westlands",5,5,"Silver
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
 Added Today
 12
 5 Bed House With En Suite In Spring Valley
@@ -1273,7 +1282,7 @@ Spring Valley, Westlands
 5
 Elegant 5 bedroom Villa
 KSh 85,000,000"
-74,3 Bed Townhouse With En Suite In Runda,"Silver
+3 Bed Townhouse With En Suite In Runda;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -1281,7 +1290,7 @@ Runda, Westlands
 3
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
-KSh 30,000,000","Runda, Westlands",3,3,"Silver
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
 Added Today
 18
 3 Bed Townhouse With En Suite In Runda
@@ -1290,7 +1299,7 @@ Runda, Westlands
 3
 EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
 KSh 30,000,000"
-75,4 Bed House With En Suite At Membley,"Silver
+4 Bed House With En Suite At Membley;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -1298,7 +1307,7 @@ Membley, Thika Road
 4
 4
 A 4 bedroom house for sale
-KSh 17,000,000","Membley, Thika Road",4,4,"Silver
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
 Added Today
 6
 4 Bed House With En Suite At Membley
@@ -1307,7 +1316,7 @@ Membley, Thika Road
 4
 A 4 bedroom house for sale
 KSh 17,000,000"
-76,5 Bed House With En Suite At Un Avenue,"Silver
+5 Bed House With En Suite At Un Avenue;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -1315,7 +1324,7 @@ UN Avenue, Gigiri, Westlands
 5
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
-KSh 120,000,000","UN Avenue, Gigiri, Westlands",5,5,"Silver
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
 Added Today
 20
 5 Bed House With En Suite At Un Avenue
@@ -1324,7 +1333,7 @@ UN Avenue, Gigiri, Westlands
 5
 5 Bedroom House for Sale in Gigiri Nairobi Keny...
 KSh 120,000,000"
-77,5 Bed Villa With En Suite At James Gichuru Rd,"Silver
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -1333,7 +1342,7 @@ James Gichuru Rd, Lavington
 5
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
-KSh 84,000,000","James Gichuru Rd, Lavington",5,7,"Silver
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
 Added Today
 15
 5 Bed Villa With En Suite At James Gichuru Rd
@@ -1343,7 +1352,7 @@ James Gichuru Rd, Lavington
 7
 Luxury 5 Bedrooms plus DSQs Villas For Sale in...
 KSh 84,000,000"
-78,5 Bed Villa With En Suite At Lavington,"Silver
+5 Bed Villa With En Suite At Lavington;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -1352,7 +1361,7 @@ Lavington
 5
 7
 New Ready For Occupation 5 Bedroom Villas plus...
-KSh 98,000,000",Lavington,5,7,"Silver
+KSh 98,000,000";Lavington;5;7;"Silver
 Added Today
 10
 5 Bed Villa With En Suite At Lavington
@@ -1362,7 +1371,7 @@ Lavington
 7
 New Ready For Occupation 5 Bedroom Villas plus...
 KSh 98,000,000"
-79,4 Bed House With En Suite At Loresho,"Silver
+4 Bed House With En Suite At Loresho;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -1370,7 +1379,7 @@ Loresho, Westlands
 4
 4
 Charming 4-Bedroom House for Sale
-KSh 80,000,000","Loresho, Westlands",4,4,"Silver
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
 Added Today
 10
 4 Bed House With En Suite At Loresho
@@ -1379,7 +1388,7 @@ Loresho, Westlands
 4
 Charming 4-Bedroom House for Sale
 KSh 80,000,000"
-80,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -1387,7 +1396,7 @@ Lavington
 4
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
-KSh 120,000,000",Lavington,4,6,"Silver
+KSh 120,000,000";Lavington;4;6;"Silver
 Added Today
 7
 4 Bed Townhouse With En Suite In Lavington
@@ -1396,7 +1405,7 @@ Lavington
 6
 4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
 KSh 120,000,000"
-81,4 Bed Townhouse With En Suite In Lavington,"Silver
+4 Bed Townhouse With En Suite In Lavington;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -1404,7 +1413,7 @@ Lavington
 4
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
-KSh 65,000,000",Lavington,4,6,"Silver
+KSh 65,000,000";Lavington;4;6;"Silver
 Added Today
 12
 4 Bed Townhouse With En Suite In Lavington
@@ -1413,7 +1422,7 @@ Lavington
 6
 4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
 KSh 65,000,000"
-82,4 Bed Townhouse With En Suite In Loresho,"Silver
+4 Bed Townhouse With En Suite In Loresho;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -1421,7 +1430,7 @@ Loresho, Westlands
 4
 4
 4 Bedroom Townhouse for sale in Loresho
-KSh 123,800,000","Loresho, Westlands",4,4,"Silver
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
 Added Yesterday
 9
 4 Bed Townhouse With En Suite In Loresho
@@ -1430,37 +1439,1473 @@ Loresho, Westlands
 4
 4 Bedroom Townhouse for sale in Loresho
 KSh 123,800,000"
-83,1 Bed House In Kenyatta Road,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000",Kenyatta Road,1,1,"Silver
-Added Today
-1
-1 Bed House In Kenyatta Road
-Kenyatta Road
-1
-1
-test
-KSh 90,000"
-84,5 Bed Townhouse In Karen,"Silver
-Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+5 Bed Villa With Garden In Kiambu Road;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000"
+5 Bed Villa With En Suite In Muthaiga;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
 5
 5
-5 Bedroom Townhouse in Karen for Sale
-KSh 70,000,000",Karen,5,5,"Silver
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
 Added Today
-19
-5 Bed Townhouse In Karen
-Karen
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000"
+5 Bed House With En Suite At Gigiri;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
 5
 5
-5 Bedroom Townhouse in Karen for Sale
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000"
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000"
+7 Bed Villa With En Suite In Runda;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000"
+5 Bed House With En Suite In Spring Valley;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000"
+3 Bed Townhouse With En Suite In Runda;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000"
+4 Bed House With En Suite At Membley;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000"
+5 Bed House With En Suite At Un Avenue;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000"
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000"
+5 Bed Villa With En Suite At Lavington;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000";Lavington;5;7;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000"
+4 Bed House With En Suite At Loresho;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000";Lavington;4;6;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000";Lavington;4;6;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000"
+4 Bed Townhouse With En Suite In Loresho;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000"
+5 Bed Villa With Garden In Kiambu Road;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000"
+5 Bed Villa With En Suite In Muthaiga;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000"
+5 Bed House With En Suite At Gigiri;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000"
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000"
+7 Bed Villa With En Suite In Runda;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000"
+5 Bed House With En Suite In Spring Valley;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000"
+3 Bed Townhouse With En Suite In Runda;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000"
+4 Bed House With En Suite At Membley;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000"
+5 Bed House With En Suite At Un Avenue;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000"
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000"
+5 Bed Villa With En Suite At Lavington;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000";Lavington;5;7;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000"
+4 Bed House With En Suite At Loresho;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000";Lavington;4;6;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000";Lavington;4;6;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000"
+4 Bed Townhouse With En Suite In Loresho;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000"
+5 Bed Villa With Garden In Kiambu Road;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000"
+5 Bed Villa With En Suite In Muthaiga;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000"
+5 Bed House With En Suite At Gigiri;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000"
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000"
+7 Bed Villa With En Suite In Runda;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000"
+5 Bed House With En Suite In Spring Valley;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000"
+3 Bed Townhouse With En Suite In Runda;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000"
+4 Bed House With En Suite At Membley;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000"
+5 Bed House With En Suite At Un Avenue;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000"
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000"
+5 Bed Villa With En Suite At Lavington;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000";Lavington;5;7;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000"
+4 Bed House With En Suite At Loresho;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000";Lavington;4;6;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000";Lavington;4;6;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000"
+4 Bed Townhouse With En Suite In Loresho;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000"
+5 Bed Villa With Garden In Kiambu Road;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000"
+5 Bed Villa With En Suite In Muthaiga;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000"
+5 Bed House With En Suite At Gigiri;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000"
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000"
+7 Bed Villa With En Suite In Runda;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000"
+5 Bed House With En Suite In Spring Valley;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000"
+3 Bed Townhouse With En Suite In Runda;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000"
+4 Bed House With En Suite At Membley;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000"
+5 Bed House With En Suite At Un Avenue;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000"
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000"
+5 Bed Villa With En Suite At Lavington;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000";Lavington;5;7;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000"
+4 Bed House With En Suite At Loresho;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000";Lavington;4;6;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000";Lavington;4;6;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000"
+4 Bed Townhouse With En Suite In Loresho;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000"
+5 Bed Villa With Garden In Kiambu Road;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000"
+5 Bed Villa With En Suite In Muthaiga;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000";Muthaiga;5;5;"Gold
+20
+5 Bed Villa With En Suite In Muthaiga
+Muthaiga
+5
+5
+5 bedroom house for sale in muthaiga
+KSh 450,000,000"
+3 Bed House With En Suite At Mugutha;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000";Mugutha, Ruiru;3;2;"Gold
+14
+3 Bed House With En Suite At Mugutha
+Mugutha, Ruiru
+160 m²
+3
+2
+3 Bedroom Bungalow For Sale in Mugutha, Ruiru
+KSh 11,500,000"
+5 Bed House With En Suite In Kiambu Road;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000";Kiambu Road;5;6;"Silver
+Added Today
+7
+5 Bed House With En Suite In Kiambu Road
+Kiambu Road
+5
+6
+Luxurious House For Sale Off Kiambu Road
+KSh 150,000,000"
+5 Bed House With En Suite At Gigiri;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000";0311n, Gigiri, Gigiri, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite At Gigiri
+0311n, Gigiri, Gigiri, Westlands
+3500 ft²
+5
+5
+A perfect home; five bedroom residence in the p...
+KSh 90,000,000"
+5 Bed Townhouse With En Suite At Kitisuru Road;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000";Kitisuru Road, Kitisuru, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed Townhouse With En Suite At Kitisuru Road
+Kitisuru Road, Kitisuru, Westlands
+5
+5
+New Modern Contemporary 5 Bedroom Town Home For...
+KSh 130,000,000"
+7 Bed Villa With En Suite In Runda;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000";Runda, Westlands;7;7;"Silver
+Added Today
+14
+7 Bed Villa With En Suite In Runda
+Runda, Westlands
+7
+7
+7 Bedroom Villa
+KSh 220,000,000"
+5 Bed House With En Suite In Spring Valley;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000";Spring Valley, Westlands;5;5;"Silver
+Added Today
+12
+5 Bed House With En Suite In Spring Valley
+Spring Valley, Westlands
+5
+5
+Elegant 5 bedroom Villa
+KSh 85,000,000"
+3 Bed Townhouse With En Suite In Runda;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000";Runda, Westlands;3;3;"Silver
+Added Today
+18
+3 Bed Townhouse With En Suite In Runda
+Runda, Westlands
+3
+3
+EXQUISITE 3-BEDROOM ALL EN-SUITE TOWNHOUSE IN N...
+KSh 30,000,000"
+4 Bed House With En Suite At Membley;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000";Membley, Thika Road;4;4;"Silver
+Added Today
+6
+4 Bed House With En Suite At Membley
+Membley, Thika Road
+4
+4
+A 4 bedroom house for sale
+KSh 17,000,000"
+5 Bed House With En Suite At Un Avenue;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000";UN Avenue, Gigiri, Westlands;5;5;"Silver
+Added Today
+20
+5 Bed House With En Suite At Un Avenue
+UN Avenue, Gigiri, Westlands
+5
+5
+5 Bedroom House for Sale in Gigiri Nairobi Keny...
+KSh 120,000,000"
+5 Bed Villa With En Suite At James Gichuru Rd;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000";James Gichuru Rd, Lavington;5;7;"Silver
+Added Today
+15
+5 Bed Villa With En Suite At James Gichuru Rd
+James Gichuru Rd, Lavington
+500 m²
+5
+7
+Luxury 5 Bedrooms plus DSQs Villas For Sale in...
+KSh 84,000,000"
+5 Bed Villa With En Suite At Lavington;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000";Lavington;5;7;"Silver
+Added Today
+10
+5 Bed Villa With En Suite At Lavington
+Lavington
+560 m²
+5
+7
+New Ready For Occupation 5 Bedroom Villas plus...
+KSh 98,000,000"
+4 Bed House With En Suite At Loresho;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000";Loresho, Westlands;4;4;"Silver
+Added Today
+10
+4 Bed House With En Suite At Loresho
+Loresho, Westlands
+4
+4
+Charming 4-Bedroom House for Sale
+KSh 80,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000";Lavington;4;6;"Silver
+Added Today
+7
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOOM TOWNHOUSE FOR SALE IN LAVINGTON WITH...
+KSh 120,000,000"
+4 Bed Townhouse With En Suite In Lavington;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000";Lavington;4;6;"Silver
+Added Today
+12
+4 Bed Townhouse With En Suite In Lavington
+Lavington
+4
+6
+4 BEDROOM TOWNHOUSE FOR SALE IN LAVINGTON, NAIR...
+KSh 65,000,000"
+4 Bed Townhouse With En Suite In Loresho;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000";Loresho, Westlands;4;4;"Silver
+Added Yesterday
+9
+4 Bed Townhouse With En Suite In Loresho
+Loresho, Westlands
+4
+4
+4 Bedroom Townhouse for sale in Loresho
+KSh 123,800,000"
+5 Bed Villa With Garden In Kiambu Road;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
+KSh 70,000,000";Kiambu Road;5;6;"Silver
+5
+5 Bed Villa With Garden In Kiambu Road
+Kiambu Road
+5
+6
+Spacious Flat Roof House For Sale Off Kiambu Ro...
 KSh 70,000,000"
