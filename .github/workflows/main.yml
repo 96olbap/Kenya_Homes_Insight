@@ -1,0 +1,41 @@
+name: Scrape and Clean Data Workflow
+
+on:
+  schedule:
+    # Runs at minute 0 past every 12th hour.
+    - cron:  '0 */12 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Install dependencies
+      run: |
+        # Add any other dependencies your script requires
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run script
+      run: python scraper.py
+    - name: Upload CSV to Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: real_estate_nrb_cleaned.csv
+        path: real_estate_nrb_cleaned.csv
+    - name: commit files
+        run:|
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+    - name: push changes
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
