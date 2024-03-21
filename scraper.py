@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 import chromedriver_autoinstaller
 
-from pyvirtualdisplay import Display
+# from pyvirtualdisplay import Display
 # display = Display(visible = 0, size =(800, 800))
 # display.start()
 
@@ -45,8 +45,8 @@ def ScrapePropertyData(): #Function to scrape property data
     columns = ['Title', 'Category', 'Location', 'Beds', 'Baths', 'Price']
     real_estate = []
 
-    """To scrape data from the first 11 pages of the website"""
-    for i in range(1, 31):
+    """To scrape data from the first 80 pages of the website"""
+    for i in range(1, 81):
         url = f'https://www.buyrentkenya.com/houses-for-sale/nairobi' + str(i) + '_p/'
         driver.get(url)
 
