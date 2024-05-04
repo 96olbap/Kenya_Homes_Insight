@@ -46,7 +46,7 @@ def ScrapePropertyData(): #Function to scrape property data
     real_estate = []
 
     """To scrape data from the first 80 pages of the website"""
-    for i in range(1, 81):
+    for i in range(1, 351):
         url = f'https://www.buyrentkenya.com/houses-for-sale/nairobi' + str(i) + '_p/'
         driver.get(url)
 
