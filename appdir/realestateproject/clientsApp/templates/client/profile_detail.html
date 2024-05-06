@@ -1,0 +1,55 @@
+{%extends 'base.html'%} {% load rest_framework %} {%load static%} {% load crispy_forms_tags %} {% block styles %} {{block.super}}
+<link rel="stylesheet" href="{% static 'css/profile.css' %}"> {% endblock %} {% block content %}
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-sm-4 align-items-center">
+            <h2 class="text-center">Profile Details</h2>
+            <div class="card">
+                {% if profile.profile_photo %}
+                <img src="{{ profile.profile_photo.url }}" alt=" Profile Photo" /> {%else%}
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt=" Profile Photo" /> {%endif%}
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>@{{profile.user.username}}</strong></li>
+                        {% if profile.bio %}
+                        <li class="list-group-item"><strong>Bio</strong><br>{{profile.bio}}</li>
+                        {%else%}
+                        <li class="list-group-item"><strong>Bio</strong><br>Here lies a little more information about {{profile.user.username}}.
+                        </li>
+                        {%endif%}
+                        <li class="list-group-item"><strong>Contact Information</strong><br>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="font-weight-bold">First Name</p>
+                                    <p class="contact">{{profile.user.first_name}}</p>
+                                </div>
+                                <div class="col">
+                                    <p class="font-weight-bold">Last Name</p>
+                                    <p class="contact">{{profile.user.last_name}}</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="font-weight-bold">Email</p>
+                                    <p class="contact text-break">{{profile.user.email}}</p>
+                                </div>
+                                <div class="col">
+                                    <p class="font-weight-bold">Phone Number</p>
+                                    {%if profile.phone_number%}
+                                    <p class="contact">{{profile.phone_number}}</p>
+                                    {%else%}
+                                    <p class="contact">None Provided</p>
+                                    {%endif%}
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-center">
+                        {%if profile.id == user.id%}
+                        <a class="btn btn-info" href="{%url 'profileUpdate' pk=profile.id%}" role="button">Update
+                            Account Details</a> {%else%} {%endif%}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock content %}
