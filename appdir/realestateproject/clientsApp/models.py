@@ -36,4 +36,4 @@ class Profile(models.Model):
 class Wishlist(models.Model):
     '''Model that defines the properties user adds to withlist'''
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    listings = models.ManyToManyField('listinds.Listing') # referencing Listing model in listings app
+    listings = models.ManyToManyField('listings.Listing') # referencing Listing model in listings app
