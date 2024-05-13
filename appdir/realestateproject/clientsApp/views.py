@@ -1,9 +1,14 @@
 from django.shortcuts import redirect,render
 from django.contrib import messages
 from django.contrib.auth import login, authenticate
+from django.urls import reverse, reverse_lazy
 from .forms import SignUpForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views import generic
+
+from rest_framework import status,viewsets
+from .serializer import ProfileSerializer,ProjectSerializer
+from .permissions import IsAuthenticatedOrReadOnly
 
 from .models import  *
 
@@ -48,3 +53,15 @@ class ProfileUpdateView(LoginRequiredMixin ,generic.UpdateView):
         "bio",
         "phone_number"
     ]
+
+#API LOGIC
+class ProfileViewSet(viewsets.ModelViewSet):
+    """
+    This viewset automatically provides `list` and `retrieve` actions.
+    """
+    queryset = Profile.objects.all()
+    serializer_class = ProfileSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly,]
+    
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
