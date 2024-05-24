@@ -1,0 +1,34 @@
+{% extends 'registration/base.html' %} {% load bootstrap3 %} {% load static %} {% block content %}
+
+<div class="container-fluid d-flex justify-content-center align-items-center wrapper">
+    <div class="container-lg py-5">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-4">
+                <img src="{% static 'images/phones.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4 my-2">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/site_logo.png' %}" alt="site logo" style="width: 100px; height: 85px; background-color: transparent;">
+                        <form method="post">
+                            {% csrf_token %} {% bootstrap_form form %}
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-primary btn-sm" value="Log In">
+                            </div>
+
+                            <input type="hidden" name="next" value="{{next}}">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card p-3 my-2">
+                    <div class="card-body text-center">
+                        <p class="mb-0">Don't have an account? <a href="/register">Sign up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

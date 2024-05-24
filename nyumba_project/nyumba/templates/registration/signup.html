@@ -1,0 +1,26 @@
+{% extends 'registration/base.html' %} {% load bootstrap3 %} {% load static %} {% block content %}
+<div class="container-fluid d-flex justify-content-center align-items-center wrapper">
+    <div class="container-xxl">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4">
+                <div class="card p-4">
+                    <div class="card-body text-center">
+                        <img src="{% static 'images/site_logo.png' %}" alt="site logo" style="width: 100px; height: 85px; background-color: transparent;">
+                        <h5 class="px-3 text-muted">Sign up to view Property Listings.</h4>
+
+                            <form method="post">
+                                {% csrf_token %} {% bootstrap_form form %}
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary btn-sm" value="Sign Up">
+                                </div>
+
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

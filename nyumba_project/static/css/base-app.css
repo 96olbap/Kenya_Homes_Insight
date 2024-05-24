@@ -1,0 +1,16 @@
+.navbar-brand{
+    padding: 0.5px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.logo-img{
+    width: 100px;
+    height: 85px;
+}
+
+.logo-words{
+    color: black;
+    margin-top: -25px;
+}
+
