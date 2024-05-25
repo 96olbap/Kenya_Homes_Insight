@@ -1,0 +1,45 @@
+Beds
+Baths
+Price
+Cat_Bungalow
+Cat_Other
+Cat_Townhouse
+Cat_Villa
+Loc_0429J, Kiambu Road, Kiambu Road
+Loc_Diani
+Loc_Gigiri Suburb, Gigiri, Westlands
+Loc_Gigiri, Westlands
+Loc_Kamakis, Ruiru
+Loc_Karen
+Loc_Karen, Karen
+Loc_Kayole Estate, Naivasha
+Loc_Kiambu Road
+Loc_Kimbo, Ruiru
+Loc_Kisumu
+Loc_Kitengela
+Loc_Kitisuru, Kitisuru, Westlands
+Loc_Kitisuru, Westlands
+Loc_Kyuna, Westlands
+Loc_Lamu, Lamu
+Loc_Langata, Langata
+Loc_Lavington
+Loc_Lavington Green, Lavington
+Loc_Lavington, Lavington
+Loc_Loresho, Loresho, Westlands
+Loc_Membley, Ruiru
+Loc_Mimosa, Runda, Westlands
+Loc_Mombasa Road, Syokimau
+Loc_Mountain View, Westlands
+Loc_Namanga Road, Kitengela
+Loc_Ngong
+Loc_Rosslyn, Westlands
+Loc_Ruiru
+Loc_Ruiru -Githunguri Road, Ruiru
+Loc_Runda, Runda, Westlands
+Loc_Runda, Westlands
+Loc_Selling Price : Kes 150m, Old Runda, Runda, Westlands
+Loc_Thika Greens Estate, Thika
+Loc_Tigoni, Limuru
+Loc_Vipingo
+Loc_Westlands Area, Westlands
+Loc_Windsor, Roysambu

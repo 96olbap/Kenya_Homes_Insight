@@ -10,7 +10,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
 import pickle
 
-
 def read_data(file_path):
     try:
         data = pd.read_csv(file_path, sep=';')
@@ -121,6 +120,17 @@ if __name__ == "__main__":
         map.save('map.html')  # Save the map as an HTML file
 
         data, scaler = preprocess_data(data)
+        
+        # Save the scaler
+        with open('scaler.pickle', 'wb') as f:
+            pickle.dump(scaler, f)
+        
+        # Save the feature names
+        feature_names = data.columns.tolist()
+        with open('feature_names.txt', 'w') as f:
+            for feature in feature_names:
+                f.write(f"{feature}\n")
+
         x_train, x_test, y_train, y_test = split_data(data)
         lin_reg = train_linear_regression(x_train, y_train)
         rf_model = train_random_forest(x_train, y_train)
