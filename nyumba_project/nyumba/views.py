@@ -1,11 +1,15 @@
 from django.shortcuts import render, redirect
-from django.http import HttpResponse, HttpResponseBadRequest
-
+from django.http import HttpResponse, HttpResponseBadRequest, HttpResponseRedirect
+from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 
 from .forms import RegisterForm
 import pandas as pd
 import pickle
+from .models import Listing
+
+from django.core.mail import send_mail
+from django.contrib import messages
 
 # Create your views here.
 
@@ -87,11 +91,51 @@ def predict(request):
     # Predict the price
     predicted_price = model.predict(input_data)
     
-    # Render the result
+    # Print parameters used in the database query
+    print("Category:", category)
+    print("Location:", location)
+    print("Predicted Price:", predicted_price)
+    
+    # Query the database for listings within the predicted price range
+    price_variation_range = 23800000  # Adjust as necessary
+    listings = Listing.objects.filter(
+        category=category,
+        location=location,
+        price__gte=predicted_price[0] - price_variation_range,
+        price__lte=predicted_price[0] + price_variation_range
+    )[:2]
+    
+    # Print the resulting queryset
+    print("Query Result:", listings)
+    
+    # Render the result with listings
     return render(request, 'base-app/shop-listing.html', {
         'predicted_price': predicted_price[0],
         'category': category,
         'location': location,
         'beds': beds,
-        'baths': baths
+        'baths': baths,
+        'listings': listings
     })
+
+def contact(request):
+    if request.method == 'POST':
+        first_name = request.POST.get('first_name')
+        last_name = request.POST.get('last_name')
+        email = request.POST.get('email')
+        message = request.POST.get('message')
+
+        # Handle form data here (e.g., save to database, send email)
+        send_mail(
+            f"Contact form submission from {first_name} {last_name}",
+            message,
+            email,
+            ['alvin858rpk@gmail.com'],
+            fail_silently=False,
+        )
+
+        messages.success(request, 'Your message has been sent successfully!')
+        return HttpResponseRedirect(reverse('contact'))
+
+    return render(request, 'base-app/contact.html')
+

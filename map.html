@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79fb69907fb8bcfab9f701f7a6e15bbb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_79fb69907fb8bcfab9f701f7a6e15bbb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_79fb69907fb8bcfab9f701f7a6e15bbb = L.map(
+                "map_79fb69907fb8bcfab9f701f7a6e15bbb",
+                {
+                    center: [-1.2921, 36.8219],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc316f474b7be091cfbac0bf25bfb113 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cc316f474b7be091cfbac0bf25bfb113.addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var marker_7eb3d14af498a4d2e3142bc59b86e2a9 = L.marker(
+                [-1.395968, 36.7520106],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_140f1ea9162fbd68009c2b567b0ecf8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7eb3d14af498a4d2e3142bc59b86e2a9.setIcon(icon_140f1ea9162fbd68009c2b567b0ecf8a);
+        
+    
+        var popup_657dc80b8cfe4be3f6cdd3a4b0dc46e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09673dba78af3693e24dd3a83b56de16 = $(`<div id="html_09673dba78af3693e24dd3a83b56de16" style="width: 100.0%; height: 100.0%;">Ongata Rongai</div>`)[0];
+                popup_657dc80b8cfe4be3f6cdd3a4b0dc46e5.setContent(html_09673dba78af3693e24dd3a83b56de16);
+            
+        
+
+        marker_7eb3d14af498a4d2e3142bc59b86e2a9.bindPopup(popup_657dc80b8cfe4be3f6cdd3a4b0dc46e5)
+        ;
+
+        
+    
+    
+            var marker_131b6f1e210964a4c333c746c69aa229 = L.marker(
+                [-1.2287836, 36.8401337],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_3ea574b399ff839689ced204f0235bec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_131b6f1e210964a4c333c746c69aa229.setIcon(icon_3ea574b399ff839689ced204f0235bec);
+        
+    
+        var popup_5985143bdab0c881ceac9637fcabbc98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_526d9a59b3e040dd879b777ea260bdd2 = $(`<div id="html_526d9a59b3e040dd879b777ea260bdd2" style="width: 100.0%; height: 100.0%;">Kiambu Road, Kiambu Road</div>`)[0];
+                popup_5985143bdab0c881ceac9637fcabbc98.setContent(html_526d9a59b3e040dd879b777ea260bdd2);
+            
+        
+
+        marker_131b6f1e210964a4c333c746c69aa229.bindPopup(popup_5985143bdab0c881ceac9637fcabbc98)
+        ;
+
+        
+    
+    
+            var marker_2604c4d00cebff9461e1353ae46f1201 = L.marker(
+                [-3.8198725, 39.7982313],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_274e874525e429f90024e0dae9206581 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2604c4d00cebff9461e1353ae46f1201.setIcon(icon_274e874525e429f90024e0dae9206581);
+        
+    
+        var popup_247f550dd1ccb01c96d33a132398eebb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f55617b873c7a2a4ccd115db101a19f4 = $(`<div id="html_f55617b873c7a2a4ccd115db101a19f4" style="width: 100.0%; height: 100.0%;">Vipingo</div>`)[0];
+                popup_247f550dd1ccb01c96d33a132398eebb.setContent(html_f55617b873c7a2a4ccd115db101a19f4);
+            
+        
+
+        marker_2604c4d00cebff9461e1353ae46f1201.bindPopup(popup_247f550dd1ccb01c96d33a132398eebb)
+        ;
+
+        
+    
+    
+            var marker_412605dc1fba8569e735b61d311b305d = L.marker(
+                [-1.2740678, 36.7762269],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_38939107c6cdeaf0fa7ed03b2496a87a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_412605dc1fba8569e735b61d311b305d.setIcon(icon_38939107c6cdeaf0fa7ed03b2496a87a);
+        
+    
+        var popup_37043ac5a37f971333742cbb94290186 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b26eaa511bf36bf506cb310d877995af = $(`<div id="html_b26eaa511bf36bf506cb310d877995af" style="width: 100.0%; height: 100.0%;">Lavington</div>`)[0];
+                popup_37043ac5a37f971333742cbb94290186.setContent(html_b26eaa511bf36bf506cb310d877995af);
+            
+        
+
+        marker_412605dc1fba8569e735b61d311b305d.bindPopup(popup_37043ac5a37f971333742cbb94290186)
+        ;
+
+        
+    
+    
+            var marker_f64fc5fc60c98c2057b6cf828709e202 = L.marker(
+                [-1.3283746, 36.7049676],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_9528f477f5512c33869326029c9b32ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f64fc5fc60c98c2057b6cf828709e202.setIcon(icon_9528f477f5512c33869326029c9b32ff);
+        
+    
+        var popup_d6e99ba67c3ef4bcd1aee94b42e49bad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_033faac545210b71b9004d7fab14a263 = $(`<div id="html_033faac545210b71b9004d7fab14a263" style="width: 100.0%; height: 100.0%;">Karen</div>`)[0];
+                popup_d6e99ba67c3ef4bcd1aee94b42e49bad.setContent(html_033faac545210b71b9004d7fab14a263);
+            
+        
+
+        marker_f64fc5fc60c98c2057b6cf828709e202.bindPopup(popup_d6e99ba67c3ef4bcd1aee94b42e49bad)
+        ;
+
+        
+    
+    
+            var marker_d2cc773b35d8c0e62ff18b6923462198 = L.marker(
+                [-1.23067875, 36.81088578631916],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_c28481257ad1aa18e71582d807385b2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d2cc773b35d8c0e62ff18b6923462198.setIcon(icon_c28481257ad1aa18e71582d807385b2e);
+        
+    
+        var popup_8fad87a1640b853c8e99fed7c62c492a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a481f9909766d730f65c453c0ca9437 = $(`<div id="html_7a481f9909766d730f65c453c0ca9437" style="width: 100.0%; height: 100.0%;">RUNDA, Runda, Westlands</div>`)[0];
+                popup_8fad87a1640b853c8e99fed7c62c492a.setContent(html_7a481f9909766d730f65c453c0ca9437);
+            
+        
+
+        marker_d2cc773b35d8c0e62ff18b6923462198.bindPopup(popup_8fad87a1640b853c8e99fed7c62c492a)
+        ;
+
+        
+    
+    
+            var marker_9ddb0d003f4ba32e453328b2894100b2 = L.marker(
+                [-1.2182119, 36.8089887],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_4bad62ba56c52d8956220e1027c7634c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ddb0d003f4ba32e453328b2894100b2.setIcon(icon_4bad62ba56c52d8956220e1027c7634c);
+        
+    
+        var popup_88a6062b66d6cb8c65d55642fda1d27a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2090451772ccb80ecf0e883fcfd5a87 = $(`<div id="html_d2090451772ccb80ecf0e883fcfd5a87" style="width: 100.0%; height: 100.0%;">Runda, Westlands</div>`)[0];
+                popup_88a6062b66d6cb8c65d55642fda1d27a.setContent(html_d2090451772ccb80ecf0e883fcfd5a87);
+            
+        
+
+        marker_9ddb0d003f4ba32e453328b2894100b2.bindPopup(popup_88a6062b66d6cb8c65d55642fda1d27a)
+        ;
+
+        
+    
+    
+            var marker_40bf97dd6a6153cdb3f6c051fc6fd48e = L.marker(
+                [-1.474564, 36.95907],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_3e29dce2689d7e4324e8153ad70a0b77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_40bf97dd6a6153cdb3f6c051fc6fd48e.setIcon(icon_3e29dce2689d7e4324e8153ad70a0b77);
+        
+    
+        var popup_9e6efac45f3c25890a85ea5c580803aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cb7e17211e8e911033ac8282bf55941 = $(`<div id="html_1cb7e17211e8e911033ac8282bf55941" style="width: 100.0%; height: 100.0%;">Kitengela</div>`)[0];
+                popup_9e6efac45f3c25890a85ea5c580803aa.setContent(html_1cb7e17211e8e911033ac8282bf55941);
+            
+        
+
+        marker_40bf97dd6a6153cdb3f6c051fc6fd48e.bindPopup(popup_9e6efac45f3c25890a85ea5c580803aa)
+        ;
+
+        
+    
+    
+            var marker_f044175b443a42047e0e8a1276d60d49 = L.marker(
+                [-1.1774574, 36.98242850646827],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_d2949b6c968c5a06d947154b3ae6d647 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f044175b443a42047e0e8a1276d60d49.setIcon(icon_d2949b6c968c5a06d947154b3ae6d647);
+        
+    
+        var popup_d7dda010c9ee9168e4816d1421d53592 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cf7144ef0402e46897f09bcb6604c3b = $(`<div id="html_6cf7144ef0402e46897f09bcb6604c3b" style="width: 100.0%; height: 100.0%;">Ruiru</div>`)[0];
+                popup_d7dda010c9ee9168e4816d1421d53592.setContent(html_6cf7144ef0402e46897f09bcb6604c3b);
+            
+        
+
+        marker_f044175b443a42047e0e8a1276d60d49.bindPopup(popup_d7dda010c9ee9168e4816d1421d53592)
+        ;
+
+        
+    
+    
+            var marker_4e1558dfbed7dc4012bcc089577a03c4 = L.marker(
+                [9.0243521, 13.5096813],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_21deb82e8b7be23fae9c740da44148a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e1558dfbed7dc4012bcc089577a03c4.setIcon(icon_21deb82e8b7be23fae9c740da44148a8);
+        
+    
+        var popup_b3cd88095d980389eda6eee20bf1bef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4f4d9ae35f88ef775171c4c23f58870 = $(`<div id="html_f4f4d9ae35f88ef775171c4c23f58870" style="width: 100.0%; height: 100.0%;">Ngong</div>`)[0];
+                popup_b3cd88095d980389eda6eee20bf1bef4.setContent(html_f4f4d9ae35f88ef775171c4c23f58870);
+            
+        
+
+        marker_4e1558dfbed7dc4012bcc089577a03c4.bindPopup(popup_b3cd88095d980389eda6eee20bf1bef4)
+        ;
+
+        
+    
+    
+            var marker_b1cb214dac7a6b9027ff3aceb06576b1 = L.marker(
+                [-1.085053, 36.7820398],
+                {}
+            ).addTo(map_79fb69907fb8bcfab9f701f7a6e15bbb);
+        
+    
+            var icon_99a027da7b5c5da43cb6507452d21309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1cb214dac7a6b9027ff3aceb06576b1.setIcon(icon_99a027da7b5c5da43cb6507452d21309);
+        
+    
+        var popup_06cd20fd8e9fb9540c9725ff07b5726b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7a2079b49e1791eb837af5ddcd0687f = $(`<div id="html_c7a2079b49e1791eb837af5ddcd0687f" style="width: 100.0%; height: 100.0%;">Kiambu Road</div>`)[0];
+                popup_06cd20fd8e9fb9540c9725ff07b5726b.setContent(html_c7a2079b49e1791eb837af5ddcd0687f);
+            
+        
+
+        marker_b1cb214dac7a6b9027ff3aceb06576b1.bindPopup(popup_06cd20fd8e9fb9540c9725ff07b5726b)
+        ;
+
+        
+    
+</script>
+</html>

@@ -109,7 +109,7 @@ def predict_price(model, scaler, category_columns, location_columns):
     return predicted_price[0]
 
 if __name__ == "__main__":
-    data_path = "real_estate_nrb_cleaned.csv"
+    data_path = "processed_data.csv"
     data = read_data(data_path)
     if data is not None:
         unique_locations = data['Location'].unique().tolist()
