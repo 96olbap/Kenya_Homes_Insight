@@ -1,6 +1,27 @@
-{% extends 'base-app/base.html' %} {% load static %} {% block styles %} {{ block.super }}
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> {% endblock %} 
-{% block title %}Prediction Result{% endblock %}
+{% extends 'base-app/base.html' %}
+{% load static %}
+
+{% block styles %}
+{{ block.super }}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    canvas {
+        width: 410px !important;
+        height: 205px !important;
+    }
+    #correlationMatrixHeatmap {
+        width: 410px !important;
+        height: 205px !important;
+    }
+</style>
+{% endblock %}
+
+{% block title %}
+Prediction Result
+{% endblock %}
+
+
 {% block content %}
 
 <main>
@@ -45,14 +66,6 @@
                     </div>
                 </div>
     
-                <div class="col-lg-4 col-md-4 col-12 mb-5">
-                    <h3>Top Properties</h3>
-                    <div class="shop-thumb">
-                        <div class="shop-image-wrap">
-                            <iframe src="{% static 'map.html' %}" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" height="400"></iframe>
-                        </div>
-                    </div>
-                </div>
     
                 <div class="col-lg-4 col-md-4 col-12">
                     <h3>Similar Listings</h3>
@@ -82,7 +95,18 @@
                     </div>
     
                 </div>
-                <nav aria-label="Page navigation example">
+
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <h3>Locations with similar listings</h3>
+                    <div class="shop-thumb">
+                        <div class="shop-image-wrap">
+                            <!-- <iframe src="{% static 'map.html' %}" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" height="400"></iframe> -->
+                            <iframe src="{% static 'map.html' %}" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" height="400"></iframe>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                         <li class="page-item">
                             <a class="page-link" href="#" aria-label="Previous">
@@ -102,16 +126,246 @@
                             <a class="page-link" href="#">3</a>
                         </li>
                     </ul>
-                </nav>
+                </nav> -->
+                <br>
+                <br>
+                <br>
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="page-link section-padding" href="#section_analytics">more</a>
+                </div> 
     
             </div>
         </div>
+    </section>
+    <section class="about-section" id="section_analytics">
+            {% load humanize %}
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <h2>Location Analytics</h2>
+                        <p>Based on all the available listings in the area the,</p>
+                        <p><strong>Average Property Price:</strong> Ksh. {{ avg_price|intcomma }}</p>
+                        <!-- <p><strong>Median Price:</strong> Ksh. {{ median_price|intcomma }}</p>
+                        <p><strong>Total Listings:</strong> {{ listing_count }}</p> -->
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <p><strong>Distribution of Listings by Price Range</strong></p>
+                        <canvas id="priceRangeDistributionChart" width="410" height="205"></canvas>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <p><strong>Price Distribution</strong></p>
+                        <canvas id="priceDistributionChart" width="410" height="205"></canvas>
+                    </div>
+                </div>
+            
+                <div class="row section-padding">
+            
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <p><strong>Average Price by Number of Bedrooms</strong></p>
+                        <canvas id="avgPriceByBedroomsChart" width="410" height="205"></canvas>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <p><strong>Average Price by Number of Bathrooms</strong></p>
+                        <canvas id="avgPriceByBathroomsChart" width="410" height="205"></canvas>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <p><strong>Average Price by Category</strong></p>
+                        <canvas id="avgPriceByCategoryChart" width="410" height="205"></canvas>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var ctxDistribution = document.getElementById('priceDistributionChart').getContext('2d');
+                    var priceDistributionData = JSON.parse('{{ price_distribution|escapejs }}') || [];
+                    var labelsDistribution = priceDistributionData.map((price, index) => `Listing ${index + 1}`);
+                    
+                    if (priceDistributionData.length > 0) {
+                        var priceDistributionChart = new Chart(ctxDistribution, {
+                            type: 'line',
+                            data: {
+                                labels: labelsDistribution,
+                                datasets: [{
+                                    label: 'Price (Ksh)',
+                                    data: priceDistributionData,
+                                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                    borderColor: 'rgba(75, 192, 192, 1)',
+                                    borderWidth: 1,
+                                    fill: false
+                                }]
+                            },
+                            options: {
+                                responsive: false,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+                    }
+            
+                    var ctxAvgPriceByBedrooms = document.getElementById('avgPriceByBedroomsChart').getContext('2d');
+                    var avgPriceByBedroomsData = JSON.parse('{{ avg_price_by_bedrooms|escapejs }}') || [];
+                    var labelsAvgPriceByBedrooms = avgPriceByBedroomsData.map(item => item.beds);
+                    var dataAvgPriceByBedrooms = avgPriceByBedroomsData.map(item => item.avg_price);
+                    
+                    if (avgPriceByBedroomsData.length > 0) {
+                        var avgPriceByBedroomsChart = new Chart(ctxAvgPriceByBedrooms, {
+                            type: 'bar',
+                            data: {
+                                labels: labelsAvgPriceByBedrooms,
+                                datasets: [{
+                                    label: 'Average Price (Ksh)',
+                                    data: dataAvgPriceByBedrooms,
+                                    backgroundColor: 'rgba(153, 102, 255, 0.2)',
+                                    borderColor: 'rgba(153, 102, 255, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: false,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+                    }
+            
+                    var ctxAvgPriceByBathrooms = document.getElementById('avgPriceByBathroomsChart').getContext('2d');
+                    var avgPriceByBathroomsData = JSON.parse('{{ avg_price_by_bathrooms|escapejs }}') || [];
+                    var labelsAvgPriceByBathrooms = avgPriceByBathroomsData.map(item => item.baths);
+                    var dataAvgPriceByBathrooms = avgPriceByBathroomsData.map(item => item.avg_price);
+                    
+                    if (avgPriceByBathroomsData.length > 0) {
+                        var avgPriceByBathroomsChart = new Chart(ctxAvgPriceByBathrooms, {
+                            type: 'bar',
+                            data: {
+                                labels: labelsAvgPriceByBathrooms,
+                                datasets: [{
+                                    label: 'Average Price (Ksh)',
+                                    data: dataAvgPriceByBathrooms,
+                                    backgroundColor: 'rgba(255, 159, 64, 0.2)',
+                                    borderColor: 'rgba(255, 159, 64, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: false,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+                    }
+            
+                    var ctxPriceRangeDistribution = document.getElementById('priceRangeDistributionChart').getContext('2d');
+                    var priceRangeDistributionData = JSON.parse('{{ price_distribution_by_range|escapejs }}') || {};
+                    var labelsPriceRangeDistribution = Object.keys(priceRangeDistributionData);
+                    var dataPriceRangeDistribution = Object.values(priceRangeDistributionData);
+                    
+                    if (labelsPriceRangeDistribution.length > 0) {
+                        var priceRangeDistributionChart = new Chart(ctxPriceRangeDistribution, {
+                            type: 'pie',
+                            data: {
+                                labels: labelsPriceRangeDistribution,
+                                datasets: [{
+                                    label: 'Number of Listings',
+                                    data: dataPriceRangeDistribution,
+                                    backgroundColor: ['rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)', 'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)'],
+                                    borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)', 'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)'],
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: false,
+                                maintainAspectRatio: false
+                            }
+                        });
+                    }
+            
+                    var ctxAvgPriceByCategory = document.getElementById('avgPriceByCategoryChart').getContext('2d');
+                    var avgPriceByCategoryData = JSON.parse('{{ avg_price_by_category|escapejs }}') || [];
+                    var labelsAvgPriceByCategory = avgPriceByCategoryData.map(item => item.category);
+                    var dataAvgPriceByCategory = avgPriceByCategoryData.map(item => item.avg_price);
+                    
+                    if (avgPriceByCategoryData.length > 0) {
+                        var avgPriceByCategoryChart = new Chart(ctxAvgPriceByCategory, {
+                            type: 'bar',
+                            data: {
+                                labels: labelsAvgPriceByCategory,
+                                datasets: [{
+                                    label: 'Average Price (Ksh)',
+                                    data: dataAvgPriceByCategory,
+                                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                                    borderColor: 'rgba(75, 192, 192, 1)',
+                                    borderWidth: 1
+                                }]
+                            },
+                            options: {
+                                responsive: false,
+                                maintainAspectRatio: false,
+                                scales: {
+                                    y: {
+                                        beginAtZero: true
+                                    }
+                                }
+                            }
+                        });
+                    }
+            
+                    var correlationMatrixData = JSON.parse('{{ correlation_matrix|escapejs }}') || {};
+                    var labelsCorrelationMatrix = Object.keys(correlationMatrixData);
+                    var dataCorrelationMatrix = labelsCorrelationMatrix.map(row => Object.values(correlationMatrixData[row]));
+            
+                    if (labelsCorrelationMatrix.length > 0) {
+                        var trace = {
+                            z: dataCorrelationMatrix,
+                            x: labelsCorrelationMatrix,
+                            y: labelsCorrelationMatrix,
+                            type: 'heatmap',
+                            colorscale: 'Viridis'
+                        };
+            
+                        var data = [trace];
+            
+                        var layout = {
+                            title: 'Correlation Matrix',
+                            width: 410,
+                            height: 205,
+                            xaxis: { title: 'Features' },
+                            yaxis: { title: 'Features' }
+                        };
+            
+                        Plotly.newPlot('correlationMatrixHeatmap', data, layout);
+                    }
+                });
+            </script>
     </section>
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#36363e" fill-opacity="1" d="M0,96L40,117.3C80,139,160,181,240,186.7C320,192,400,160,480,149.3C560,139,640,149,720,176C800,203,880,245,960,250.7C1040,256,1120,224,1200,229.3C1280,235,1360,277,1400,298.7L1440,320L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
 </main>
 
-<footer class="site-footer section-padding">
+<footer class="site-footer">
     <div class="container">
         <div class="row">
 
@@ -182,3 +436,4 @@
 </footer>
 
 {% endblock %}
+<p><strong>Price Distribution</strong></p>

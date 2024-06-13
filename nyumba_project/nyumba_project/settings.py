@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'nyumba',
     'bootstrap3',
     'django_registration',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
