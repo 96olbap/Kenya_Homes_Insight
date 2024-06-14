@@ -20,12 +20,12 @@ class Profile(models.Model):
         db_table = 'user_profile'
 
 class Listing(models.Model):
-    title = models.CharField(max_length=150)
-    category = models.CharField(max_length=100)
-    location = models.CharField(max_length=100)
-    beds = models.FloatField()
-    baths = models.FloatField()
-    price = models.FloatField()
+    title = models.CharField(max_length=255)
+    category = models.CharField(max_length=255, null=True, blank=True)  # Adjust based on your requirements
+    location = models.CharField(max_length=255, null=True, blank=True)  # Adjust based on your requirements
+    beds = models.IntegerField(null=True, blank=True)
+    baths = models.IntegerField(null=True, blank=True)
+    price = models.DecimalField(max_digits=15, decimal_places=2)  # Increased precision
     
     def __str__(self):
         return f"{self.location} House with {self.beds} Beds and {self.baths} Baths"

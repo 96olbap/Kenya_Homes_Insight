@@ -13,6 +13,7 @@ class Command(BaseCommand):
             headers = next(reader)[0].split(';')  # Read and split the first row
             print(headers)  # Check if headers are correct
             imported_count = 0
+            null_values_count = 0  # Counter for records with null values
             for row in reader:
                 data = row[0].split(';')  # Split the row data
                 if len(data) != len(headers):  # Adjust the row data to match the number of headers
@@ -24,21 +25,34 @@ class Command(BaseCommand):
                         data.extend([None] * (len(headers) - len(data)))
                 # Convert empty strings to None or provide default values
                 data = [None if value == '' else value for value in data]
-                # Check if required fields are not empty
-                if data[0] and data[5]:  # Assuming title and price are required
-                    listing = Listing(
-                        title=data[0],
-                        category=data[1],
-                        location=data[2],
-                        beds=data[3],
-                        baths=data[4] if data[4] else None,  # Convert empty baths to None
-                        price=data[5]
-                    )
-                    listing.save()
+
+                # Provide default values for missing required fields
+                title = data[0] if data[0] else 'other'
+                category = data[1] if data[1] else 'other'
+                location = data[2] if data[2] else 'township'
+                beds = data[3] if data[3] else 0
+                baths = data[4] if data[4] else 0
+                try:
+                    price = int(float(data[5]))  # Truncate price to remove decimal points
+                except (ValueError, TypeError):
+                    price = 58000000  # Provide a default value if price is invalid or missing
+
+                listing, created = Listing.objects.get_or_create(
+                    title=title,
+                    defaults={
+                        'category': category,
+                        'location': location,
+                        'beds': beds,
+                        'baths': baths,
+                        'price': price,
+                    }
+                )
+                if created:
                     imported_count += 1
                 else:
-                    print("Skipping row with missing required fields:", row)
-        
+                    print(f"Duplicate record found and skipped: {data}")
+
         total_count = Listing.objects.count()
         self.stdout.write(self.style.SUCCESS(f'Successfully imported {imported_count} listings'))
         self.stdout.write(self.style.SUCCESS(f'Total number of listings in database: {total_count}'))
+        self.stdout.write(self.style.WARNING(f'Number of records with null values: {null_values_count}'))
